@@ -8,4 +8,4 @@ Team Members: Hazel Mahajan (50592568), Shubham Soni (50593888), Poojan Kaneriya
 
 This repository consists the jupyter notebook for the Data Intensive Computing course project.
 
-About the project: By analyzing attributes obtained from the dataset, the goal of the project is to predict the genre and upcoming trends.
+About the project: By analyzing the dataset, this project aims at predicting the genre and upcoming trends based on various attributes.

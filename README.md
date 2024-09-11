@@ -4,7 +4,7 @@ Course Code: CSE587 Data Intensive Computing
 
 Project Title: Song Data Analysis for Uncovering Trends and Genres
 
-Team Members: Hazel Mahajan (50592568), Shubham Soni (50593888), Poojan Kaneriya (5060422)
+Team Members: Hazel Mahajan (50592568), Shubham Soni (50593888), Poojan Kaneriya (50604221)
 
 This repository consists the jupyter notebook for the Data Intensive Computing course project.
 

@@ -96,7 +96,7 @@ We continue Phase 2 after the completion of Phase 1 to maintain continuity.
 2. Work done by Poojan Kaneriya (UBID - 50604221)
 
  Hypothesis 1
-- Algorithm used to validate the hypothesis : Random Forest Regression
+- Algorithm used to validate the hypothesis: Random Forest Regression
 - Explanation of Each Step
 - Analysis of Results
 - Conclusion
@@ -114,17 +114,98 @@ We continue Phase 2 after the completion of Phase 1 to maintain continuity.
  Hypothesis 1
 - Algorithm used: Support Vector Regressor (SVR)
 - Visualisation
-- Explaination and Analysis
+- Explanation and Analysis
 
  Hypothesis 2
   
   
 - Algorithm used: K-Means
 - Visualisation
-- Explaination and Analysis
-
-   
+- Explanation and Analysis
 
 
+# PHASE 3
+
+### Folder name : [50592568]__[50593888]__[50604221]_phase_3
+
+### Folder structure : 
+
+Folder Structure:
+
+```
+DIC Project/
+|-- src/
+|   |-- app.py               # Main application orchestrator
+|   |-- database.py          # Handles SQLite database initialization and operations
+|   |-- model_initializer.py # Prepares and loads pre-trained models
+|   |-- mood_model.py        # Logic for mood prediction
+|   |-- similar_songs_model.py # Logic for similar songs recommendation
+|   |-- genre_model.py       # Logic for genre prediction
+|   |-- popularity_model.py  # Logic for popularity estimation
+|   |-- train_model.py       # Script for training ML models (optional)
+|-- data/
+|   |-- Song_Data_with_Genre_Mapping.csv # Dataset file for song information
+|   |-- mood_model.pkl       # Pre-trained model for mood prediction
+|   |-- similar_songs_model.pkl # Pre-trained model for similar songs
+|   |-- genre_model.pkl      # Pre-trained model for genre classification
+|   |-- popularity_model.pkl # Pre-trained model for popularity estimation
+|   |-- song_input.db        # SQLite database table for user inputs
+|   |-- songs_data.db        # SQLite database table for song dataset
+|-- exp/
+|   |-- [50592568]__[50593888]_[50604221]_phase_2.ipynb # Phase 1 and 2 combine notebook
+|-- DIC_PROJECT_REPORT.pdf   # Report 
+|-- VideoRecording.mp4       # Demonstration of the app
+|-- requirements.txt         # Lists dependencies required for the project
+|-- README.md                # Documentation and usage instructions
+```
+
+Instructions to run the project:
+
+- Prerequisites:
+
+    Python 3.8+
+
+- Required Python libraries:
+
+    pandas
+    
+    numpy
+    
+    scikit-learn
+    
+    PySimpleGUI
+    
+    sqlite3
+
+- Installation
+
+    Clone the repository
+    
+    Install the dependencies: pip install -r requirements.txt
+    
+    Ensure the data/ folder contains the necessary dataset and pre-trained models.
+
+- Run the Application:
+
+    python src/app.py
+    
+    Using the GUI:
+    
+    Enter a song name in the input field.
+    
+    Select one or more prediction options (Mood, Similar Songs, Genre, Popularity).
+    
+    Click "Predict" to view the results.
+    
+    The predictions will appear in the output box below.
+
+
+Some of the song names to try:
+
+    - Smooth Criminal
+    - Good Vibes
+    - In The End
+    - Hips Don't Lie
+    - I Wish I Missed My Ex
 
   

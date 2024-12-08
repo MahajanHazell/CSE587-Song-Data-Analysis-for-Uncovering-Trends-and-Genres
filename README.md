@@ -134,23 +134,24 @@ Folder Structure:
 
 ```
 DIC Project/
-|-- src/
-|   |-- app.py               # Main application orchestrator
-|   |-- database.py          # Handles SQLite database initialization and operations
-|   |-- model_initializer.py # Prepares and loads pre-trained models
-|   |-- mood_model.py        # Logic for mood prediction
-|   |-- similar_songs_model.py # Logic for similar songs recommendation
-|   |-- genre_model.py       # Logic for genre prediction
-|   |-- popularity_model.py  # Logic for popularity estimation
-|   |-- train_model.py       # Script for training ML models (optional)
-|-- data/
-|   |-- Song_Data_with_Genre_Mapping.csv # Dataset file for song information
-|   |-- mood_model.pkl       # Pre-trained model for mood prediction
-|   |-- similar_songs_model.pkl # Pre-trained model for similar songs
-|   |-- genre_model.pkl      # Pre-trained model for genre classification
-|   |-- popularity_model.pkl # Pre-trained model for popularity estimation
-|   |-- song_input.db        # SQLite database table for user inputs
-|   |-- songs_data.db        # SQLite database table for song dataset
+|-- app/
+|   |-- src/
+|   |   |-- app.py               # Main application orchestrator
+|   |   |-- database.py          # Handles SQLite database initialization and operations
+|   |   |-- model_initializer.py # Prepares and loads pre-trained models
+|   |   |-- mood_model.py        # Logic for mood prediction
+|   |   |-- similar_songs_model.py # Logic for similar songs recommendation
+|   |   |-- genre_model.py       # Logic for genre prediction
+|   |   |-- popularity_model.py  # Logic for popularity estimation
+|   |   |-- train_model.py       # Script for training ML models (optional)
+|   |-- data/
+|   |   |-- Song_Data_with_Genre_Mapping.csv # Dataset file for song information
+|   |   |-- mood_model.pkl       # Pre-trained model for mood prediction
+|   |   |-- similar_songs_model.pkl # Pre-trained model for similar songs
+|   |   |-- genre_model.pkl      # Pre-trained model for genre classification
+|   |   |-- popularity_model.pkl # Pre-trained model for popularity estimation
+|   |   |-- song_input.db        # SQLite database table for user inputs
+|   |   |-- songs_data.db        # SQLite database table for song dataset
 |-- exp/
 |   |-- [50592568]__[50593888]_[50604221]_phase_2.ipynb # Phase 1 and 2 combine notebook
 |-- DIC_PROJECT_REPORT.pdf   # Report 
